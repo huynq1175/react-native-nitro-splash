@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["splashscreen"],
+  "ios": {
+    "iosModuleName": "SplashScreen"
+  },
+  "android": {
+    "androidNamespace": ["splashscreen"],
+    "androidCxxLibName": "splashscreen"
+  },
+  "autolinking": {
+    "SplashScreen": {
+      "swift": "SplashScreen",
+      "kotlin": "SplashScreen"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
