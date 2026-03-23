@@ -1,7 +1,7 @@
 {
-  "name": "react-native-splash-screen",
+  "name": "@abeman/react-native-nitro-splash",
   "version": "0.1.0",
-  "description": "Splash screen",
+  "description": "A high-performance splash screen for React Native",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -89,9 +89,15 @@
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
+    "lottie-react-native": ">=7.0.0",
     "react": "*",
     "react-native": "*",
     "react-native-nitro-modules": "^0.35.2"
+  },
+  "peerDependenciesMeta": {
+    "lottie-react-native": {
+      "optional": true
+    }
   },
   "workspaces": [
     "example"

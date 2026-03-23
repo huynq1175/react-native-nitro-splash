@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-splash-screen": ["./src/index"]
+      "@abeman/react-native-nitro-splash": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

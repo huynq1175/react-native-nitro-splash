@@ -1,9 +1,15 @@
 import { NitroModules } from 'react-native-nitro-modules';
 import type { SplashScreen } from './SplashScreen.nitro';
 
-const SplashScreenHybridObject =
+const SplashScreenModule =
   NitroModules.createHybridObject<SplashScreen>('SplashScreen');
 
-export function multiply(a: number, b: number): number {
-  return SplashScreenHybridObject.multiply(a, b);
+export function show(): void {
+  SplashScreenModule.show();
 }
+
+export function hide(): void {
+  SplashScreenModule.hide();
+}
+
+export default { show, hide };
