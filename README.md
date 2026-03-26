@@ -1,4 +1,4 @@
-# react-native-splash-screen
+# @abeman/react-native-nitro-splash
 
 A high-performance splash screen for React Native, powered by [NitroModules](https://nitro.margelo.com/). Supports static storyboard/XML layouts and optional **Lottie animations**.
 
@@ -23,7 +23,7 @@ A high-performance splash screen for React Native, powered by [NitroModules](htt
 ## Installation
 
 ```sh
-npm install react-native-splash-screen react-native-nitro-modules
+npm install @abeman/react-native-nitro-splash react-native-nitro-modules
 ```
 
 ### iOS
@@ -150,7 +150,7 @@ Or add meta-data to `AndroidManifest.xml` (no code change needed):
 ## Usage (JavaScript)
 
 ```typescript
-import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from '@abeman/react-native-nitro-splash';
 
 // Hide the splash screen (e.g., after data loads)
 SplashScreen.hide();
@@ -163,7 +163,7 @@ SplashScreen.show();
 
 ```typescript
 import { useEffect } from 'react';
-import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from '@abeman/react-native-nitro-splash';
 
 export default function App() {
   useEffect(() => {

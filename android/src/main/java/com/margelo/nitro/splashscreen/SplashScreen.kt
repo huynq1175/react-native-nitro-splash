@@ -154,6 +154,7 @@ class SplashScreen : HybridSplashScreenSpec() {
                 val dialog = Dialog(activity, theme).apply {
                     setContentView(container)
                     setCancelable(false)
+                    window?.setWindowAnimations(0)
                 }
 
                 dialog.window?.applyEdgeToEdge()
